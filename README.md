@@ -11,10 +11,19 @@ This is my own configuration of the [st terminal](https://st.suckless.org/).
 # Requirements
 In order to build st you need the Xlib header files.
 
+To use the colour changing PyWal must be installed.
+
 
 # Installation
 Edit config.mk to match your local setup (st is installed into
 the /usr/local namespace by default).
+
+In the ``` config.h ``` file, update path to your PyWal header for st.
+This should be in the format of:
+```
+   /home/<USER>/.cache/wal/colors-wal-st.h
+```
+
 
 Afterwards enter the following command to build and install st (if
 necessary as root):
