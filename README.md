@@ -8,7 +8,8 @@ This is my own configuration of the [st terminal](https://st.suckless.org/).
 * Paste with Ctr-v.
 * Scrollback patch applied with Shift/Alt + mousewheel
 * Added colour syncing with [PyWal](https://github.com/dylanaraps/pywal/).
-* TODO...
+* XResources configurations added. This allows for PyWal themes to sync.
+
 
 # Requirements
 In order to build st you need the Xlib header files.
