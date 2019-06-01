@@ -4,7 +4,9 @@ st is a simple terminal emulator for X which sucks less.
 This is my own configuration of the [st terminal](https://st.suckless.org/).
 
 ## My additions
-* Copy with Alt-w binding.
+* Copy with Alt-w.
+* Paste with Ctr-v.
+* Scrollback patch applied with Shift/Alt + mousewheel
 * Added colour syncing with [PyWal](https://github.com/dylanaraps/pywal/).
 * TODO...
 
